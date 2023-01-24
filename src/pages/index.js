@@ -15,7 +15,7 @@ export default function Home({ posts, date }) {
       </Head>
 
       <section className="mt-20 flex justify-center items-center flex-col">
-        <p className="text-gray-800">last refresh: {date}</p>
+        <p className="text-gray-800">last fecth: {date}</p>
         {posts.map((el) => {
           return (
             <Link href={`/blog/${el.id}`}>
